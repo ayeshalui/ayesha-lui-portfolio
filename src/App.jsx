@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import ProjectPage from "./ProjectPage";
+import anipalImage from "./assets/anipal neat.jpg";
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -13,7 +14,7 @@ const projects = [
     title: "Anime App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
-    image: "/src/assets/anipal neat.jpg",
+    image: anipalImage,
     description:
     "A simple visual identity developed around the Anipal brand name, with a focus on creating a clean and distinctive logo that feels memorable and versatile.",
     software: "Adobe Illustrator & Adobe Photoshop",
