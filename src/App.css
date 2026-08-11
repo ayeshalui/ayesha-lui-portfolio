@@ -181,8 +181,9 @@ button {
 	top: 17vh;
 
 	border-style: dashed;
+	border-width: 2px;
 
-	animation: rotateCircleReverse 15s linear infinite;
+	animation: rotateCircleReverse 25s linear infinite;
 }
 
 @keyframes rotateCircle {
