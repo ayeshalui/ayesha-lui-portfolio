@@ -434,7 +434,7 @@ button {
 
 .projects-grid {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 80px 25px;
 }
 
@@ -515,14 +515,15 @@ button {
 }
 
 .project-info h3 {
-	font-size: 17px;
+	font-family: 'Syne', sans-serif;
+	font-size: 21px;
 	font-weight: 500;
 	margin-bottom: 7px;
 }
 
 .project-info p,
 .project-info > span {
-	font-size: 10px;
+	font-size: 15px;
 	color: #777;
 
 	text-transform: uppercase;

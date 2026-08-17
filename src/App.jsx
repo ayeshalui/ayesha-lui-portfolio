@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import ProjectPage from "./ProjectPage";
 import anipalImage from "./assets/anipal neat.jpg";
+import sodaCans from "./assets/Soda cans double splash.jpg"
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -21,11 +22,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "After Dark",
-    category: "Poster Design",
+    title: "Thumbnail for Seltzers Taste Test",
+    category: "Social Media",
     year: "2026",
-    image:
-      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=85",
+    image: sodaCans,
+    description:
+    "A thumbnail design for a YouTube video featuring a taste test of various seltzer brands, with a focus on creating a visually engaging and attention-grabbing image that encourages viewers to click and watch the video.",
+    software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
     id: 3,

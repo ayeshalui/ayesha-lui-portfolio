@@ -16,10 +16,11 @@
 /* Back button */
 
 .back-link {
+	font-family: 'Syne', sans-serif;
 	display: inline-block;
 	color: #111;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 25px;
 	margin-bottom: 100px;
 	transition: opacity 0.3s ease;
 	font-weight: bold;
@@ -40,14 +41,20 @@
 }
 
 .project-number {
-	font-size: 11px;
+	font-size: 15px;
+	font-weight: 400;
 	letter-spacing: 0.15em;
 	margin-bottom: 20px;
 	color: var(--accent-orange);
 }
 
+.project-number h1 {
+	font-size: 15px !important;
+}
+
 .project-header h1 {
-	font-size: clamp(70px, 13vw, 190px);
+	font-family: 'Syne', sans-serif;
+	font-size: clamp(70px, 6vw, 190px);
 	line-height: 0.8;
 	font-weight: 400;
 	letter-spacing: -0.06em;
@@ -55,7 +62,8 @@
 }
 
 .project-meta {
-	font-size: 14px;
+	font-family: 'Syne', sans-serif;
+	font-size: 18px;
 	line-height: 1.5;
 	text-align: right;
 }
@@ -68,19 +76,19 @@
 
 .project-hero-image {
 	width: 100%;
-	min-height: 65vh;
+	min-height: 85vh;
 	background: #e9e7df;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 80px;
+	padding: 40px;
 	margin-bottom: 120px;
 	border-radius: 20px;
 }
 
 .project-hero-image img {
-	width: 55%;
-	max-width: 650px;
+	width: 85%;
+	max-width: 700px;
 	height: auto;
 	display: block;
 }
@@ -96,17 +104,18 @@
 }
 
 .details-label {
-	font-size: 11px;
+	font-size: 15px;
 	letter-spacing: 0.15em;
 	opacity: 0.5;
 }
 
 .details-content {
-	max-width: 650px;
+	font-family: 'Syne', sans-serif;
+	max-width: 800px;
 }
 
 .details-content > p {
-	font-size: clamp(22px, 3vw, 42px);
+	font-size: clamp(22px, 2vw, 42px);
 	line-height: 1.1;
 	letter-spacing: -0.03em;
 	margin: 0;
