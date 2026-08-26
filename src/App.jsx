@@ -35,7 +35,8 @@ const projects = [
   },
   {
   id: 3,
-  title: "My Magazine",
+    title: "My Magazine",
+  image: magazine01,
   images: [
     magazine01,
     magazine02,
