@@ -48,10 +48,6 @@
 	color: var(--accent-orange);
 }
 
-.project-number h1 {
-	font-size: 15px !important;
-}
-
 .project-header h1 {
 	font-family: 'Syne', sans-serif;
 	font-size: clamp(70px, 6vw, 190px);
@@ -72,25 +68,89 @@
 	color: #ff5a1f;
 }
 
-/* Main image */
+/* Carousel */
+
+.project-carousel {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
 
 .project-hero-image {
 	width: 100%;
-	min-height: 85vh;
+	min-height: 50vh;
 	background: #e9e7df;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 40px;
-	margin-bottom: 120px;
 	border-radius: 20px;
+	overflow: hidden;
 }
 
 .project-hero-image img {
-	width: 85%;
-	max-width: 700px;
+	width: 60%;
+	max-width: 500px;
 	height: auto;
 	display: block;
+}
+
+/* Carousel buttons */
+
+.carousel-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+
+	width: 55px;
+	height: 55px;
+
+	border: none;
+	border-radius: 50%;
+
+	background: #ff5a1f;
+	color: white;
+
+	font-family: 'Syne', sans-serif;
+	font-size: 24px;
+
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transition:
+		transform 0.2s ease,
+		background 0.2s ease;
+}
+
+.carousel-button:hover {
+	background: #111;
+	transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-prev {
+	left: 25px;
+}
+
+.carousel-next {
+	right: 25px;
+}
+
+/* Page counter */
+
+.carousel-counter {
+	font-family: 'Syne', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color: #111;
+	margin-bottom: 120px;
+	letter-spacing: 0.1em;
 }
 
 /* Information */
@@ -159,10 +219,6 @@
 	color: #ff5a1f !important;
 }
 
-.padding {
-	padding: 20px;
-}
-
 /* Mobile */
 
 @media (max-width: 700px) {
@@ -188,15 +244,39 @@
 		margin-top: 30px;
 	}
 
+	.project-carousel {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 	.project-hero-image {
 		width: 100%;
 		min-height: 65vh;
-		background: #e9e7df;
+		padding: 25px;
 		border-top: 3px solid var(--accent-orange);
+		border-radius: 15px;
 	}
 
 	.project-hero-image img {
-		width: 85%;
+		width: 60%;
+	}
+
+	.carousel-button {
+		width: 45px;
+		height: 45px;
+		font-size: 18px;
+	}
+
+	.carousel-prev {
+		left: 10px;
+	}
+
+	.carousel-next {
+		right: 10px;
+	}
+
+	.carousel-counter {
+		margin-bottom: 100px;
 	}
 
 	.project-details {

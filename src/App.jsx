@@ -3,6 +3,9 @@ import "./App.css";
 import ProjectPage from "./ProjectPage";
 import anipalImage from "./assets/anipal neat.jpg";
 import sodaCans from "./assets/Soda cans double splash.jpg"
+import magazine01 from "./assets/magazine-01.jpg";
+import magazine02 from "./assets/magazine-02.jpg";
+import magazine03 from "./assets/magazine-03.jpg";
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -31,12 +34,18 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 3,
-    title: "Echoes",
-    category: "Album Cover",
-    year: "2025",
-    image:
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=85",
+  id: 3,
+  title: "My Magazine",
+  images: [
+    magazine01,
+    magazine02,
+    magazine03,
+  ],
+  category: "Editorial Design",
+  year: "2026",
+  description:
+    "A 12-page editorial magazine exploring visual storytelling through typography, imagery and layout.",
+  software: "Adobe InDesign & Adobe Photoshop",
   },
   {
     id: 4,
