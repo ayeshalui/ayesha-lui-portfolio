@@ -2,7 +2,25 @@ import { useState } from "react";
 import "./App.css";
 import ProjectPage from "./ProjectPage";
 import anipalImage from "./assets/anipal neat.jpg";
+import anipalImage2 from "./assets/anipal logo 3D 1.png";
 import sodaCans from "./assets/Soda cans double splash.jpg"
+import perfumeProducts from "./assets/Perfume with ad complete.jpg";
+import gymSports from "./assets/Sport Cover.jpg";
+import threeDProducts from "./assets/3D Finale.jpg";
+import geoshapes from "./assets/Geo Shapes Done.jpg";
+import appleButtons from "./assets/Apple Buttons.jpg";
+import brandIdentity1 from "./assets/All icons-01.jpg";
+import brandIdentity2 from "./assets/All icons-02.jpg";
+import brandIdentity3 from "./assets/Placement Image.jpg";
+import dodoLogo1 from "./assets/Dodo App Logo 1.png";
+import dodoLogo2 from "./assets/Dodo Slogan.png";
+import dodoLogo3 from "./assets/Dodo.png";
+import rocketLogo01 from "./assets/rocket logo 01.jpg";
+import rocketLogo02 from "./assets/rocket logo 02.jpg";
+import rocketLogo03 from "./assets/rocket logo 03.jpg";
+import rocketLogo04 from "./assets/rocket logo 04.jpg";
+import rocketLogo05 from "./assets/rocket logo 05.jpg";
+import rocketLogo06 from "./assets/rocket logo 06.jpg";
 import magazine01 from "./assets/magazine-01.jpg";
 import magazine02 from "./assets/magazine-02.jpg";
 import magazine03 from "./assets/magazine-03.jpg";
@@ -18,7 +36,8 @@ const projects = [
     title: "Anime App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
-    image: anipalImage,
+    image: anipalImage2,
+    images: [anipalImage, anipalImage2],
     description:
     "A simple visual identity developed around the Anipal brand name, with a focus on creating a clean and distinctive logo that feels memorable and versatile.",
     software: "Adobe Illustrator & Adobe Photoshop",
@@ -50,52 +69,83 @@ const projects = [
   },
   {
     id: 4,
-    title: "Visual Noise",
-    category: "Typography",
-    year: "2025",
-    image:
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=85",
+    title: "Perfume Product Advertisement",
+    category: "Packaging Design",
+    year: "2026",
+    image: perfumeProducts,
+    description:
+    "A 3D product advertisement for a perfume brand, showcasing the product in a visually appealing and elegant way that highlights its unique features and design.",
+    software: "Adobe Dimension, Adobe Illustrator & Adobe Photoshop ",
   },
   {
     id: 5,
-    title: "Form / Function",
-    category: "Editorial Design",
-    year: "2025",
-    image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=85",
+    title: "Rocket Logo",
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    image: rocketLogo05,
+    images : [rocketLogo01, rocketLogo02, rocketLogo03, rocketLogo04, rocketLogo05, rocketLogo06],
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    description:
+    "A visual identity project exploring the relationship between form and function in design, with a focus on creating a cohesive and versatile brand identity that reflects the values and personality of the brand.",
+    software: "Adobe Illustrator",
   },
   {
     id: 6,
     title: "Mono",
-    category: "Packaging Design",
-    year: "2024",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85",
+    category: "Illustration",
+    year: "2026",
+    image: threeDProducts,
+    description:"A 3D illustration project exploring the use of color, texture and composition to create visually striking and memorable images that convey a sense of depth and dimensionality.",
+    software: "Adobe Dimension, Adobe Illustrator & Adobe Photoshop",
   },
   {
     id: 7,
     title: "Digital Bloom",
     category: "Illustration",
-    year: "2024",
-    image:
-      "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1200&q=85",
+    year: "2026",
+    image: geoshapes,
+    description: "A geometric illustration project exploring the use of shapes, colors, and patterns to create visually engaging and harmonious compositions.",
+    software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
     id: 8,
-    title: "Social / 01",
+    title: "Social / 01- Gym Sports",
     category: "Social Media",
-    year: "2024",
-    image:
-      "https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1200&q=85",
+    year: "2026",
+    image: gymSports,
+    description: "A social media post design for a gym and sports brand, featuring bold typography and dynamic imagery that conveys energy and motivation.",
+    software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
     id: 9,
-    title: "Social / 02",
+    title: "Social / 02- Apple Buttons neumorphic designs",
     category: "Social Media",
-    year: "2028",
-    image:
-      "/src/assets/anipal neat.jpg",
+    year: "2026",
+    image: appleButtons,
+    description: "A social media post design featuring Apple-style buttons with a clean and modern aesthetic.",
+    software: "Adobe Illustrator & Adobe Photoshop",
   },
+  {
+    id: 10,
+    title: "Social / 03- Brand Identity",
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    image: brandIdentity3,
+    images : [brandIdentity1, brandIdentity2, brandIdentity3],
+    description: "A visual identity project exploring the relationship between form and function in design, with a focus on creating a cohesive and versatile brand identity that reflects the values and personality of the brand.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 11,
+    title: "Social / 04- Dodo App Logo",
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    image: dodoLogo1,
+    images : [dodoLogo1, dodoLogo2, dodoLogo3],
+    description: "A visual identity project exploring the relationship between form and function in design, with a focus on creating a cohesive and versatile brand identity that reflects the values and personality of the brand.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  }
 ];
 
 // Portfolio categories
