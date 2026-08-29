@@ -17,7 +17,20 @@ import dodoLogo2 from "./assets/Dodo Slogan.png";
 import dodoLogo3 from "./assets/Dodo.png";
 import shoesGif from "./assets/Shoes-Gif.gif";
 import bookCovers1 from "./assets/BOOK COVER.jpg";
-import editedVersions from "./assets/Whale collage.jpg";
+import editedVersions1 from "./assets/Whale collage.jpg";
+import editedVersions2 from "./assets/Comparison 11.jpg";
+import editedVersions3 from "./assets/Comparison 1.jpg";
+import editedVersions4 from "./assets/Comparison 2.jpg";
+import editedVersions5 from "./assets/Comparison 3.jpg";
+import editedVersions6 from "./assets/Comparison 4.jpg";
+import editedVersions7 from "./assets/Comparison 5.jpg";
+import editedVersions8 from "./assets/Comparison 9.jpg";
+import editedVersions9 from "./assets/Comparison 10.jpg";
+import editedVersions10 from "./assets/Comparison 12.jpg";
+import editedVersions11 from "./assets/Comparison d&b.jpg";
+import editedVersions12 from "./assets/Racoon Manipulated.jpg";
+import editedVersions13 from "./assets/sky comparisons.jpg";
+import editedVersions14 from "./assets/Hair Colour Comparisons 8.jpg";
 import patterns1 from "./assets/Warp Text Final.jpg";
 import rocketLogo01 from "./assets/Rocket logo 01.jpg";
 import rocketLogo02 from "./assets/Rocket logo 02.jpg";
@@ -180,9 +193,10 @@ const projects = [
   {
     id: 15,
     title: "Edits / 01- Edited Versions",
-    category: "Editorial Design",
+    category: "Social Media",
     year: "2026",
-    image: editedVersions,
+    image: editedVersions1,
+    images: [editedVersions1, editedVersions2, editedVersions3, editedVersions4, editedVersions5, editedVersions6, editedVersions7, editedVersions8, editedVersions9, editedVersions10, editedVersions11, editedVersions12, editedVersions13, editedVersions14],
     description: "Edited versions of pror originals.",
     software: "Adobe Photoshop",
   },

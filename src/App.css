@@ -435,7 +435,7 @@ button {
 .projects-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 80px 25px;
+	gap: 10px 25px;
 }
 
 .project-card {
@@ -443,7 +443,7 @@ button {
 }
 
 .project-large {
-	margin-top: 120px;
+	margin-top: 40px;
 }
 
 .project-image {
@@ -454,6 +454,8 @@ button {
 
 	overflow: hidden;
 	background: #ddd;
+
+	border-radius: 35px;
 }
 
 .project-large .project-image {
