@@ -15,6 +15,10 @@ import brandIdentity3 from "./assets/Placement Image.jpg";
 import dodoLogo1 from "./assets/Dodo App Logo 1.png";
 import dodoLogo2 from "./assets/Dodo Slogan.png";
 import dodoLogo3 from "./assets/Dodo.png";
+import shoesGif from "./assets/Shoes-Gif.gif";
+import bookCovers1 from "./assets/BOOK COVER.jpg";
+import editedVersions from "./assets/Whale collage.jpg";
+import patterns1 from "./assets/Warp Text Final.jpg";
 import rocketLogo01 from "./assets/Rocket logo 01.jpg";
 import rocketLogo02 from "./assets/Rocket logo 02.jpg";
 import rocketLogo03 from "./assets/Rocket logo 03.jpg";
@@ -145,7 +149,43 @@ const projects = [
     images : [dodoLogo1, dodoLogo2, dodoLogo3],
     description: "A visual identity project exploring the relationship between form and function in design, with a focus on creating a cohesive and versatile brand identity that reflects the values and personality of the brand.",
     software: "Adobe Illustrator & Adobe Photoshop",
-  }
+  },
+  {
+    id: 12,
+    title: "Social / 05- Shoes Gif",
+    category: "Social Media",
+    year: "2026",
+    image: shoesGif,
+    description: "A social media post design featuring a GIF of shoes with a clean and modern aesthetic.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 13,
+    title: "Social / 06- Warp Text",
+    category: "Typography",
+    year: "2026",
+    image: patterns1,
+    description: "A typography project exploring the use of warp text to create visually engaging and dynamic compositions.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 14,
+    title: "Social / 07- Book Covers",
+    category: "Editorial Design",
+    year: "2026",
+    image: bookCovers1,
+    description: "A book cover design project exploring the use of typography, imagery and layout to create visually striking and memorable covers that convey the essence of the book's content.",
+    software: "Adobe Photoshop",
+  },
+  {
+    id: 15,
+    title: "Edits / 01- Edited Versions",
+    category: "Editorial Design",
+    year: "2026",
+    image: editedVersions,
+    description: "Edited versions of pror originals.",
+    software: "Adobe Photoshop",
+  },
 ];
 
 // Portfolio categories
