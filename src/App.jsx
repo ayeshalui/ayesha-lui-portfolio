@@ -38,18 +38,15 @@ import rocketLogo03 from "./assets/Rocket logo 03.jpg";
 import rocketLogo04 from "./assets/Rocket logo 04.jpg";
 import rocketLogo05 from "./assets/Rocket logo 05.jpg";
 import rocketLogo06 from "./assets/Rocket logo 06.jpg";
-import magazine01 from "./assets/magazine-01.jpg";
-import magazine02 from "./assets/magazine-02.jpg";
-import magazine03 from "./assets/magazine-03.jpg";
-import magazine04 from "./assets/magazine-04.jpg";
-import magazine05 from "./assets/magazine-05.jpg";
-import magazine06 from "./assets/magazine-06.jpg";
-import magazine07 from "./assets/magazine-07.jpg";
-import magazine08 from "./assets/magazine-08.jpg";
-import magazine09 from "./assets/magazine-09.jpg";
-import magazine10 from "./assets/magazine-10.jpg";
-import magazine11 from "./assets/magazine-11.jpg";
-import magazine12 from "./assets/magazine-12.jpg";
+import magazine01 from "./assets/Cookbook Facing.jpg";
+import magazine02 from "./assets/Cookbook Facing2.jpg";
+import magazine03 from "./assets/Cookbook Facing3.jpg";
+import magazine04 from "./assets/Cookbook Facing4.jpg";
+import magazine05 from "./assets/Cookbook Facing5.jpg";
+import magazine06 from "./assets/Cookbook Facing6.jpg";
+import magazine07 from "./assets/Cookbook Facing7.jpg";
+import mandala1 from "./assets/Mandala 1.jpg";
+import magazineSpread1 from "./assets/Magazine spread.jpg";
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -90,11 +87,6 @@ const projects = [
     magazine05,
     magazine06,
     magazine07,
-    magazine08,
-    magazine09,
-    magazine10,
-    magazine11,
-    magazine12,
   ],
   category: "Editorial Design",
   year: "2026",
@@ -217,6 +209,24 @@ const projects = [
     images: [editedVersions1, editedVersions2, editedVersions3, editedVersions4, editedVersions5, editedVersions6, editedVersions7, editedVersions8, editedVersions9, editedVersions10, editedVersions11, editedVersions12, editedVersions13, editedVersions14],
     description: "Edited versions of pror originals.",
     software: "Adobe Photoshop",
+  },
+  {
+    id: 16,
+    title: "Edits / 02- Mandala",
+    category: "Illustration",
+    year: "2026",
+    image: mandala1,
+    description: "A mandala illustration project exploring the use of symmetry, patterns and colors to create visually engaging and harmonious compositions.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 17,
+    title: "Edits / 03- Magazine Spread",
+    category: "Editorial Design",
+    year: "2026",
+    image: magazineSpread1,
+    description: "A magazine spread design project exploring the use of typography, imagery and layout to create visually striking and memorable spreads that convey the essence of the magazine's content.",
+    software: "Adobe InDesign & Adobe Photoshop",
   },
 ];
 
