@@ -41,6 +41,15 @@ import rocketLogo06 from "./assets/Rocket logo 06.jpg";
 import magazine01 from "./assets/magazine-01.jpg";
 import magazine02 from "./assets/magazine-02.jpg";
 import magazine03 from "./assets/magazine-03.jpg";
+import magazine04 from "./assets/magazine-04.jpg";
+import magazine05 from "./assets/magazine-05.jpg";
+import magazine06 from "./assets/magazine-06.jpg";
+import magazine07 from "./assets/magazine-07.jpg";
+import magazine08 from "./assets/magazine-08.jpg";
+import magazine09 from "./assets/magazine-09.jpg";
+import magazine10 from "./assets/magazine-10.jpg";
+import magazine11 from "./assets/magazine-11.jpg";
+import magazine12 from "./assets/magazine-12.jpg";
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -77,6 +86,15 @@ const projects = [
     magazine01,
     magazine02,
     magazine03,
+    magazine04,
+    magazine05,
+    magazine06,
+    magazine07,
+    magazine08,
+    magazine09,
+    magazine10,
+    magazine11,
+    magazine12,
   ],
   category: "Editorial Design",
   year: "2026",
