@@ -353,4 +353,12 @@
 		display: block;
 		margin-top: 15px;
 	}
+
+	.image-hint {
+		display: block;
+		position: static;
+		margin: 15px 0 30px;
+		font-size: 12px;
+		text-align: center;
+	}
 }
