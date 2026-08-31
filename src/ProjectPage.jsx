@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ProjectPage.css";
 
 function ProjectPage({ project }) {
@@ -7,6 +7,22 @@ function ProjectPage({ project }) {
   const images = project.images || [project.image];
 
   const [currentImage, setCurrentImage] = useState(0);
+
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  useEffect(() => {
+  const handleKeyDown = (event) => {
+    if (event.key === "Escape") {
+      setIsFullscreen(false);
+    }
+  };
+
+  window.addEventListener("keydown", handleKeyDown);
+
+  return () => {
+    window.removeEventListener("keydown", handleKeyDown);
+  };
+  }, []);
 
   const nextImage = () => {
     setCurrentImage((prev) => (prev + 1) % images.length);
@@ -53,7 +69,10 @@ function ProjectPage({ project }) {
           ←
         </button>
 
-        <div className="project-hero-image">
+        <div
+          className="project-hero-image"
+          onClick={() => setIsFullscreen(true)}
+        >
           <img
             src={images[currentImage]}
             alt={`${project.title} - page ${currentImage + 1}`}
@@ -69,6 +88,28 @@ function ProjectPage({ project }) {
         </button>
 
       </div>
+
+      {/* Fullscreen image */}
+      {isFullscreen && (
+      <div
+          className="fullscreen-overlay"
+          onClick={() => setIsFullscreen(false)}
+      >
+      <button
+      className="fullscreen-close"
+      onClick={() => setIsFullscreen(false)}
+      aria-label="Close fullscreen"
+      >
+      ×
+      </button>
+
+       <img
+          src={images[currentImage]}
+          alt={`${project.title} - fullscreen`}
+          onClick={(event) => event.stopPropagation()}
+        />
+        </div>
+      )}
 
       {/* Page counter */}
       {images.length > 1 && (
