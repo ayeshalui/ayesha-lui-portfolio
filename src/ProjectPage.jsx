@@ -89,6 +89,8 @@ function ProjectPage({ project }) {
 
       </div>
 
+      <p className="image-hint">CLICK IMAGE TO VIEW FULLSCREEN ↗</p>
+
       {/* Fullscreen image */}
       {isFullscreen && (
       <div
