@@ -47,6 +47,7 @@ import magazine06 from "./assets/Cookbook Facing6.jpg";
 import magazine07 from "./assets/Cookbook Facing7.jpg";
 import mandala1 from "./assets/Mandala 1.jpg";
 import magazineSpread1 from "./assets/Magazine spread.jpg";
+import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -228,6 +229,15 @@ const projects = [
     description: "A magazine spread design project exploring the use of typography, imagery and layout to create visually striking and memorable spreads that convey the essence of the magazine's content.",
     software: "Adobe InDesign & Adobe Photoshop",
   },
+  {
+    id: 18,
+    title: "Edits / 04- Nike Shoe Ad",
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    image: nikeShoe,
+    description: "A social media post design featuring a Nike shoe advertisement with a clean and modern aesthetic.",
+    software: "Figma",
+  }
 ];
 
 // Portfolio categories
