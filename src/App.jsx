@@ -8,7 +8,7 @@ import perfumeProducts from "./assets/Perfume with ad complete.jpg";
 import gymSports from "./assets/Sport Cover.jpg";
 import threeDProducts from "./assets/3D Finale.jpg";
 import geoshapes from "./assets/Geo Shapes Done.jpg";
-import appleButtons from "./assets/Apple Buttons.jpg";
+import phoneButtons from "./assets/Phone buttons.jpg";
 import brandIdentity1 from "./assets/All icons-01.jpg";
 import brandIdentity2 from "./assets/All icons-02.jpg";
 import brandIdentity3 from "./assets/Placement Image.jpg";
@@ -16,7 +16,7 @@ import dodoLogo1 from "./assets/Dodo App Logo 1.png";
 import dodoLogo2 from "./assets/Dodo Slogan.png";
 import dodoLogo3 from "./assets/Dodo.png";
 import shoesGif from "./assets/Shoes-Gif.gif";
-import bookCovers1 from "./assets/BOOK COVER.jpg";
+import consoleAd from "./assets/MacBook Pro 16_ - 1.png";
 import editedVersions1 from "./assets/Whale collage.jpg";
 import editedVersions2 from "./assets/Comparison 11.jpg";
 import editedVersions3 from "./assets/Comparison 1.jpg";
@@ -147,12 +147,12 @@ const projects = [
   },
   {
     id: 9,
-    title: "Social / 02- Apple Buttons neumorphic designs",
+    title: "Social / 02- Apple Buttons & Icons neumorphic designs",
     category: "Social Media",
     year: "2026",
-    image: appleButtons,
-    description: "A social media post design featuring Apple-style buttons with a clean and modern aesthetic.",
-    software: "Adobe Illustrator & Adobe Photoshop",
+    image: phoneButtons,
+    description: "A social media post design featuring phone-style buttons & iconswith a clean and modern aesthetic.",
+    software: "Adobe Illustrator & Figma",
   },
   {
     id: 10,
@@ -194,12 +194,12 @@ const projects = [
   },
   {
     id: 14,
-    title: "Social / 07- Book Covers",
+    title: "Social / 07- Console Advertisement",
     category: "Editorial Design",
     year: "2026",
-    image: bookCovers1,
-    description: "A book cover design project exploring the use of typography, imagery and layout to create visually striking and memorable covers that convey the essence of the book's content.",
-    software: "Adobe Photoshop",
+    image: consoleAd,
+    description: "A console advertisement design project exploring the use of typography, imagery and layout to create visually striking and memorable advertisements that convey the essence of the product's features.",
+    software: "Figma",
   },
   {
     id: 15,
