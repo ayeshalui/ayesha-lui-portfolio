@@ -46,7 +46,7 @@ import magazine05 from "./assets/Cookbook Facing5.jpg";
 import magazine06 from "./assets/Cookbook Facing6.jpg";
 import magazine07 from "./assets/Cookbook Facing7.jpg";
 import pipes from "./assets/Pipes.png";
-import magazineSpread1 from "./assets/Magazine spread.jpg";
+import weatherFace from "./assets/Weather App Face UI Design.png";
 import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -149,7 +149,7 @@ const projects = [
   {
     id: 9,
     title: "Social / 02- Apple Buttons & Icons neumorphic designs",
-    category: "Social Media",
+    category: "Brand Identity/Logo Design",
     year: "2026",
     image: phoneButtons,
     description: "A social media post design featuring phone-style buttons & iconswith a clean and modern aesthetic.",
@@ -178,7 +178,7 @@ const projects = [
   {
     id: 12,
     title: "Social / 05- Shoes Gif",
-    category: "Social Media",
+    category: "Advertisement",
     year: "2026",
     image: shoesGif,
     description: "A social media post design featuring a GIF of shoes with a clean and modern aesthetic.",
@@ -196,7 +196,7 @@ const projects = [
   {
     id: 14,
     title: "Social / 07- Console Advertisement",
-    category: "Editorial Design",
+    category: "Advertisement",
     year: "2026",
     image: consoleAd,
     description: "A console advertisement design project exploring the use of typography, imagery and layout to create visually striking and memorable advertisements that convey the essence of the product's features.",
@@ -214,26 +214,26 @@ const projects = [
   },
   {
     id: 16,
-    title: "Edits / 02- Mandala",
+    title: "Edits / 02- Pipes Intersection",
     category: "Illustration",
     year: "2026",
     image: pipes,
-    description: "A mandala illustration project exploring the use of symmetry, patterns and color to create visually engaging and harmonious compositions.",
+    description: "An abstract illustration project exploring the use of symmetry, patterns and color to create visually engaging and harmonious compositions.",
     software: "Figma",
   },
   {
     id: 17,
-    title: "Edits / 03- Magazine Spread",
-    category: "Editorial Design",
+    title: "Edits / 03- Weather App Face UI Design",
+    category: "Advertisement",
     year: "2026",
-    image: magazineSpread1,
-    description: "A magazine spread design project exploring the use of typography, imagery and layout to create visually striking and memorable spreads that convey the essence of the magazine's content.",
-    software: "Adobe InDesign & Adobe Photoshop",
+    image: weatherFace,
+    description: "A social media post design featuring a weather app face UI design with a clean and modern aesthetic.",
+    software: "Figma",
   },
   {
     id: 18,
     title: "Edits / 04- Nike Shoe Ad",
-    category: "Brand Identity/Logo Design",
+    category: "Advertisement",
     year: "2026",
     image: nikeShoe,
     description: "A social media post design featuring a Nike shoe advertisement with a clean and modern aesthetic.",
@@ -252,6 +252,7 @@ const categories = [
   "Editorial Design",
   "Illustration",
   "Social Media",
+  "Advertisement",
 ];
 
 function App() {
