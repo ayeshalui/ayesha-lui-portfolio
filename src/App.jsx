@@ -45,9 +45,10 @@ import magazine04 from "./assets/Cookbook Facing4.jpg";
 import magazine05 from "./assets/Cookbook Facing5.jpg";
 import magazine06 from "./assets/Cookbook Facing6.jpg";
 import magazine07 from "./assets/Cookbook Facing7.jpg";
-import mandala1 from "./assets/Mandala 1.jpg";
+import pipes from "./assets/Pipes.png";
 import magazineSpread1 from "./assets/Magazine spread.jpg";
 import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
+import { renderToPipeableStream } from "react-dom/server";
 
 // =====================================================
 // YOUR PORTFOLIO PROJECTS
@@ -216,9 +217,9 @@ const projects = [
     title: "Edits / 02- Mandala",
     category: "Illustration",
     year: "2026",
-    image: mandala1,
-    description: "A mandala illustration project exploring the use of symmetry, patterns and colors to create visually engaging and harmonious compositions.",
-    software: "Adobe Illustrator & Adobe Photoshop",
+    image: pipes,
+    description: "A mandala illustration project exploring the use of symmetry, patterns and color to create visually engaging and harmonious compositions.",
+    software: "Figma",
   },
   {
     id: 17,
