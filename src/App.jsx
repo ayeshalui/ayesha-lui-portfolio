@@ -48,6 +48,8 @@ import magazine07 from "./assets/Cookbook Facing7.jpg";
 import pipes from "./assets/Pipes.png";
 import weatherFace from "./assets/Weather App Face UI Design.png";
 import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
+import raitecheMouse from "./assets/Mouse RaiTeche.png";
+
 import { renderToPipeableStream } from "react-dom/server";
 
 // =====================================================
@@ -237,6 +239,15 @@ const projects = [
     year: "2026",
     image: nikeShoe,
     description: "A social media post design featuring a Nike shoe advertisement with a clean and modern aesthetic.",
+    software: "Figma",
+  },
+  {
+    id: 19,
+    title: "Edits / 05- RaiTeche Mouse",
+    category: "Advertisement",
+    year: "2026",
+    image: raitecheMouse,
+    description: "A social media post design featuring a RaiTeche mouse advertisement with a clean and modern aesthetic.",
     software: "Figma",
   }
 ];
