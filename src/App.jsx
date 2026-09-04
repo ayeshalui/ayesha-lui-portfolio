@@ -49,6 +49,7 @@ import pipes from "./assets/Pipes.png";
 import weatherFace from "./assets/Weather App Face UI Design.png";
 import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
 import raitecheMouse from "./assets/Mouse RaiTeche.png";
+import nikeFootball from "./assets/Nike Football.png";
 
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -61,16 +62,7 @@ const projects = [
   {
     id: 1,
     title: "Edits / 05- RaiTeche Mouse",
-    category: "Advertisement",
-    year: "2026",
-    image: raitecheMouse,
-    description: "A social media post design featuring a RaiTeche mouse advertisement with a clean and modern aesthetic.",
-    software: "Figma",
-  },
-  {
-    id: 2,
-    title: "Edits / 04- Nike Shoe Ad",
-    category: "Advertisement",
+    category: "Website UI Design",
     year: "2026",
     image: nikeShoe,
     description: "A social media post design featuring a Nike shoe advertisement with a clean and modern aesthetic.",
@@ -79,7 +71,7 @@ const projects = [
   {
     id: 3,
     title: "Edits / 03- Weather App Face UI Design",
-    category: "Advertisement",
+    category: "Website UI Design",
     year: "2026",
     image: weatherFace,
     description: "A social media post design featuring a weather app face UI design with a clean and modern aesthetic.",
@@ -134,10 +126,19 @@ const projects = [
   {
     id: 9,
     title: "Social / 07- Console Advertisement",
-    category: "Advertisement",
+    category: "Website UI Design",
     year: "2026",
     image: consoleAd,
     description: "A console advertisement design project exploring the use of typography, imagery and layout to create visually striking and memorable advertisements that convey the essence of the product's features.",
+    software: "Figma",
+  },
+  {
+    id: 10,
+    title: "Social / 08- Nike Football",
+    category: "Website UI Design",
+    year: "2026",
+    image: nikeFootball,
+    description: "A social media post design for a Nike football advertisement, featuring bold typography and dynamic imagery that conveys energy and motivation.",
     software: "Figma",
   },
   {
@@ -264,6 +265,7 @@ const categories = [
   "Illustration",
   "Social Media",
   "Advertisement",
+  "Website UI Design",
 ];
 
 function App() {
