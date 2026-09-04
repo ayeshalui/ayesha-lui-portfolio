@@ -50,6 +50,7 @@ import weatherFace from "./assets/Weather App Face UI Design.png";
 import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
 import raitecheMouse from "./assets/Mouse RaiTeche.png";
 import nikeFootball from "./assets/Nike Football.png";
+import bicycle from "./assets/bicycle.png";
 
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -143,6 +144,15 @@ const projects = [
   },
   {
     id: 10,
+    title: "Social / 09- Electric Bicycle Website",
+    category: "Website UI Design",
+    year: "2026",
+    image: bicycle,
+    description: "A social media post design for an electric bicycle website, featuring bold typography and dynamic imagery that conveys energy and motivation.",
+    software: "Figma",
+  },
+  {
+    id: 11,
     title: "Rocket Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -155,7 +165,7 @@ const projects = [
     software: "Adobe Illustrator",
   },
   {
-    id: 11,
+    id: 12,
     title: "Social / 02- Apple Buttons & Icons neumorphic designs",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -164,7 +174,7 @@ const projects = [
     software: "Adobe Illustrator & Figma",
   },
   {
-    id: 12,
+    id: 13,
     title: "Social / 05- Shoes Gif",
     category: "Advertisement",
     year: "2026",
@@ -173,7 +183,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 13,
+    id: 14,
     title: "Social / 06- Warp Text",
     category: "Typography",
     year: "2026",
@@ -182,7 +192,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 14,
+    id: 15,
     title: "Anime App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -193,7 +203,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 15,
+    id: 16,
     title: "Thumbnail for Seltzers Taste Test",
     category: "Social Media",
     year: "2026",
@@ -203,7 +213,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 16,
+    id: 17,
     title: "My Magazine",
     image: magazine01,
     images: [
@@ -222,7 +232,7 @@ const projects = [
     software: "Adobe InDesign & Adobe Photoshop",
   },
   {
-    id: 17,
+    id: 18,
     title: "Social / 04- Dodo App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -232,7 +242,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 18,
+    id: 19,
     title: "Social / 03- Brand Identity",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -242,7 +252,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 19,
+    id: 20,
     title: "Edits / 01- Edited Versions",
     category: "Social Media",
     year: "2026",
