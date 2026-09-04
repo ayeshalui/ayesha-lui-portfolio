@@ -69,7 +69,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 3,
+    id: 2,
     title: "Edits / 03- Weather App Face UI Design",
     category: "Website UI Design",
     year: "2026",
@@ -78,7 +78,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 4,
+    id: 3,
     title: "Perfume Product Advertisement",
     category: "Packaging Design",
     year: "2026",
@@ -88,7 +88,7 @@ const projects = [
     software: "Adobe Dimension, Adobe Illustrator & Adobe Photoshop ",
   },
   {
-    id: 5,
+    id: 4,
     title: "Edits / 02- Pipes Intersection",
     category: "Illustration",
     year: "2026",
@@ -97,7 +97,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 6,
+    id: 5,
     title: "Mono",
     category: "Illustration",
     year: "2026",
@@ -106,7 +106,7 @@ const projects = [
     software: "Adobe Dimension, Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 7,
+    id: 6,
     title: "Digital Bloom",
     category: "Illustration",
     year: "2026",
@@ -115,7 +115,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 8,
+    id: 7,
     title: "Social / 01- Gym Sports",
     category: "Social Media",
     year: "2026",
@@ -124,7 +124,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 9,
+    id: 8,
     title: "Social / 07- Console Advertisement",
     category: "Website UI Design",
     year: "2026",
@@ -133,7 +133,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 10,
+    id: 9,
     title: "Social / 08- Nike Football",
     category: "Website UI Design",
     year: "2026",
@@ -155,7 +155,7 @@ const projects = [
     software: "Adobe Illustrator",
   },
   {
-    id: 9,
+    id: 11,
     title: "Social / 02- Apple Buttons & Icons neumorphic designs",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -164,7 +164,7 @@ const projects = [
     software: "Adobe Illustrator & Figma",
   },
   {
-    id: 10,
+    id: 12,
     title: "Social / 05- Shoes Gif",
     category: "Advertisement",
     year: "2026",
@@ -173,7 +173,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 11,
+    id: 13,
     title: "Social / 06- Warp Text",
     category: "Typography",
     year: "2026",
@@ -182,7 +182,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 1,
+    id: 14,
     title: "Anime App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -193,7 +193,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 2,
+    id: 15,
     title: "Thumbnail for Seltzers Taste Test",
     category: "Social Media",
     year: "2026",
@@ -203,7 +203,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 3,
+    id: 16,
     title: "My Magazine",
     image: magazine01,
     images: [
@@ -222,7 +222,7 @@ const projects = [
     software: "Adobe InDesign & Adobe Photoshop",
   },
   {
-    id: 11,
+    id: 17,
     title: "Social / 04- Dodo App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -232,7 +232,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 10,
+    id: 18,
     title: "Social / 03- Brand Identity",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -242,7 +242,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 15,
+    id: 19,
     title: "Edits / 01- Edited Versions",
     category: "Social Media",
     year: "2026",
