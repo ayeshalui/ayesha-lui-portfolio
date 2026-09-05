@@ -51,6 +51,11 @@ import nikeShoe from "./assets/Nike Shoe Ad Done.jpg";
 import raitecheMouse from "./assets/Mouse RaiTeche.png";
 import nikeFootball from "./assets/Nike Football.png";
 import bicycle from "./assets/bicycle.png";
+import dominos from "./assets/Pizza gif.gif";
+import dominos1 from "./assets/01-Pizza.png";
+import dominos2 from "./assets/02-Pizza.png";
+import dominos3 from "./assets/03-Pizza.png";
+import dominos4 from "./assets/04-Pizza.png";
 
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -153,6 +158,25 @@ const projects = [
   },
   {
     id: 11,
+    title: "Social / 10- Dominos Pizza Gif",
+    category: "Advertisement",
+    year: "2026",
+    image: dominos,
+    images: [dominos, dominos1, dominos2, dominos3, dominos4],
+    description: "A social media post design featuring a GIF of Dominos Pizza with a clean and modern aesthetic.",
+    software: "Figma",
+  },
+  {
+    id: 12,
+    title: "Social / 05- Shoes Gif",
+    category: "Advertisement",
+    year: "2026",
+    image: shoesGif,
+    description: "A social media post design featuring a GIF of shoes with a clean and modern aesthetic.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 13,
     title: "Rocket Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -165,7 +189,7 @@ const projects = [
     software: "Adobe Illustrator",
   },
   {
-    id: 12,
+    id: 14,
     title: "Social / 02- Apple Buttons & Icons neumorphic designs",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -174,25 +198,17 @@ const projects = [
     software: "Adobe Illustrator & Figma",
   },
   {
-    id: 13,
-    title: "Social / 05- Shoes Gif",
-    category: "Advertisement",
-    year: "2026",
-    image: shoesGif,
-    description: "A social media post design featuring a GIF of shoes with a clean and modern aesthetic.",
-    software: "Adobe Illustrator & Adobe Photoshop",
-  },
-  {
-    id: 14,
-    title: "Social / 06- Warp Text",
-    category: "Typography",
-    year: "2026",
-    image: patterns1,
-    description: "A typography project exploring the use of warp text to create visually engaging and dynamic compositions.",
-    software: "Adobe Illustrator & Adobe Photoshop",
-  },
-  {
     id: 15,
+    title: "Social / 04- Dodo App Logo",
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    image: dodoLogo1,
+    images : [dodoLogo1, dodoLogo2, dodoLogo3],
+    description: "A visual identity project exploring the relationship between form and function in design, with a focus on creating a cohesive and versatile brand identity that reflects the values and personality of the brand.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 16,
     title: "Anime App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -203,7 +219,16 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 16,
+    id: 17,
+    title: "Social / 06- Warp Text",
+    category: "Typography",
+    year: "2026",
+    image: patterns1,
+    description: "A typography project exploring the use of warp text to create visually engaging and dynamic compositions.",
+    software: "Adobe Illustrator & Adobe Photoshop",
+  },
+  {
+    id: 18,
     title: "Thumbnail for Seltzers Taste Test",
     category: "Social Media",
     year: "2026",
@@ -213,7 +238,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 17,
+    id: 19,
     title: "My Magazine",
     image: magazine01,
     images: [
@@ -232,17 +257,7 @@ const projects = [
     software: "Adobe InDesign & Adobe Photoshop",
   },
   {
-    id: 18,
-    title: "Social / 04- Dodo App Logo",
-    category: "Brand Identity/Logo Design",
-    year: "2026",
-    image: dodoLogo1,
-    images : [dodoLogo1, dodoLogo2, dodoLogo3],
-    description: "A visual identity project exploring the relationship between form and function in design, with a focus on creating a cohesive and versatile brand identity that reflects the values and personality of the brand.",
-    software: "Adobe Illustrator & Adobe Photoshop",
-  },
-  {
-    id: 19,
+    id: 20,
     title: "Social / 03- Brand Identity",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -252,7 +267,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 20,
+    id: 21,
     title: "Edits / 01- Edited Versions",
     category: "Social Media",
     year: "2026",
@@ -458,7 +473,7 @@ function App() {
 
               <article
                 className={`project-card ${
-                  index % 3 === 1 ? "project-large" : ""
+                index % 3 === 1 ? "project-large" : ""
                 }`}
                 key={project.id}
               >
