@@ -56,6 +56,7 @@ import dominos1 from "./assets/01-Pizza.png";
 import dominos2 from "./assets/02-Pizza.png";
 import dominos3 from "./assets/03-Pizza.png";
 import dominos4 from "./assets/04-Pizza.png";
+import learningWebsite from "./assets/Learning Website.png";
 
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -67,7 +68,7 @@ import { renderToPipeableStream } from "react-dom/server";
 const projects = [
   {
     id: 1,
-    title: "Edits / 05- RaiTeche Mouse",
+    title: "Edits / 05- Nike Sports Shoe Advertisement",
     category: "Website UI Design",
     year: "2026",
     image: nikeShoe,
@@ -76,6 +77,15 @@ const projects = [
   },
   {
     id: 2,
+    title: "Edits / 05- RaiTeche Mouse",
+    category: "Website UI Design",
+    year: "2026",
+    image: raitecheMouse,
+    description: "A social media post design featuring a RaiTeche mouse advertisement with a clean and modern aesthetic.",
+    software: "Figma",
+  }, 
+  {
+    id: 3,
     title: "Edits / 03- Weather App Face UI Design",
     category: "Website UI Design",
     year: "2026",
@@ -84,7 +94,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 3,
+    id: 4,
     title: "Perfume Product Advertisement",
     category: "Packaging Design",
     year: "2026",
@@ -94,7 +104,7 @@ const projects = [
     software: "Adobe Dimension, Adobe Illustrator & Adobe Photoshop ",
   },
   {
-    id: 4,
+    id: 5,
     title: "Edits / 02- Pipes Intersection",
     category: "Illustration",
     year: "2026",
@@ -103,7 +113,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 5,
+    id: 6,
     title: "Mono",
     category: "Illustration",
     year: "2026",
@@ -112,7 +122,7 @@ const projects = [
     software: "Adobe Dimension, Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 6,
+    id: 7,
     title: "Digital Bloom",
     category: "Illustration",
     year: "2026",
@@ -121,7 +131,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 7,
+    id: 8,
     title: "Social / 01- Gym Sports",
     category: "Social Media",
     year: "2026",
@@ -130,7 +140,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 8,
+    id: 9,
     title: "Social / 07- Console Advertisement",
     category: "Website UI Design",
     year: "2026",
@@ -139,7 +149,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 9,
+    id: 10,
     title: "Social / 08- Nike Football",
     category: "Website UI Design",
     year: "2026",
@@ -148,7 +158,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 10,
+    id: 11,
     title: "Social / 09- Electric Bicycle Website",
     category: "Website UI Design",
     year: "2026",
@@ -157,7 +167,16 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 11,
+    id: 12,
+    title: "Social / 10- Learning Website UI Design",
+    category: "Advertisement",
+    year: "2026",
+    image: learningWebsite,
+    description: "A social media post design featuring a GIF of a learning website with a clean and modern aesthetic.",
+    software: "Figma",
+  },
+  {
+    id: 13,
     title: "Social / 10- Dominos Pizza Gif",
     category: "Advertisement",
     year: "2026",
@@ -167,7 +186,7 @@ const projects = [
     software: "Figma",
   },
   {
-    id: 12,
+    id: 14,
     title: "Social / 05- Shoes Gif",
     category: "Advertisement",
     year: "2026",
@@ -176,7 +195,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 13,
+    id: 15,
     title: "Rocket Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -189,7 +208,7 @@ const projects = [
     software: "Adobe Illustrator",
   },
   {
-    id: 14,
+    id: 16,
     title: "Social / 02- Apple Buttons & Icons neumorphic designs",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -198,7 +217,7 @@ const projects = [
     software: "Adobe Illustrator & Figma",
   },
   {
-    id: 15,
+    id: 17,
     title: "Social / 04- Dodo App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -208,7 +227,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 16,
+    id: 18,
     title: "Anime App Logo",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -219,7 +238,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 17,
+    id: 19,
     title: "Social / 06- Warp Text",
     category: "Typography",
     year: "2026",
@@ -228,7 +247,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 18,
+    id: 20,
     title: "Thumbnail for Seltzers Taste Test",
     category: "Social Media",
     year: "2026",
@@ -238,7 +257,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 19,
+    id: 21,
     title: "My Magazine",
     image: magazine01,
     images: [
@@ -257,7 +276,7 @@ const projects = [
     software: "Adobe InDesign & Adobe Photoshop",
   },
   {
-    id: 20,
+    id: 22,
     title: "Social / 03- Brand Identity",
     category: "Brand Identity/Logo Design",
     year: "2026",
@@ -267,7 +286,7 @@ const projects = [
     software: "Adobe Illustrator & Adobe Photoshop",
   },
   {
-    id: 21,
+    id: 23,
     title: "Edits / 01- Edited Versions",
     category: "Social Media",
     year: "2026",
