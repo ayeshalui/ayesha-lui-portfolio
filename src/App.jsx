@@ -57,6 +57,7 @@ import dominos2 from "./assets/02-Pizza.png";
 import dominos3 from "./assets/03-Pizza.png";
 import dominos4 from "./assets/04-Pizza.png";
 import learningWebsite from "./assets/Learning Website.png";
+import teamWebsite from "./assets/Team Website.png";
 
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -169,10 +170,19 @@ const projects = [
   {
     id: 12,
     title: "Social / 10- Learning Website UI Design",
-    category: "Advertisement",
+    category: "Website UI Design",
     year: "2026",
     image: learningWebsite,
     description: "A social media post design featuring a GIF of a learning website with a clean and modern aesthetic.",
+    software: "Figma",
+  },
+  {
+    id: 13,
+    title: "Social / 10- Team/Collaboration Website",
+    category: "Website UI Design",
+    year: "2026",
+    image: teamWebsite,
+    description: "A social media post design featuring a team website with a clean and finished look that's sleek and modern.",
     software: "Figma",
   },
   {
