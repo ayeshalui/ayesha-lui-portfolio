@@ -58,6 +58,9 @@ import dominos3 from "./assets/03-Pizza.png";
 import dominos4 from "./assets/04-Pizza.png";
 import learningWebsite from "./assets/Learning Website.png";
 import teamWebsite from "./assets/Team Website.png";
+import lemonCD from "./assets/LemonCD.png";
+import lemonCD1 from "./assets/LemonPoster.png";
+import lemonCD2 from "./assets/LemonMagazine1.cdr.jpg";
 
 import { renderToPipeableStream } from "react-dom/server";
 
@@ -304,6 +307,16 @@ const projects = [
     images: [editedVersions1, editedVersions2, editedVersions3, editedVersions4, editedVersions5, editedVersions6, editedVersions7, editedVersions8, editedVersions9, editedVersions10, editedVersions11, editedVersions12, editedVersions13, editedVersions14],
     description: "Edited versions of prior originals.",
     software: "Adobe Photoshop",
+  },
+  {
+    id: 24,
+    title: "LIMONÉ Brand Logo & Poster Design",
+    category: "Brand Identity/Logo Design",
+    year: "2026",
+    image: lemonCD1,
+    images: [lemonCD, lemonCD1,lemonCD2],
+    description: "A poster design for the LemonCD product, focusing on creating a visually appealing and informative layout that effectively communicates the product's features and benefits.",
+    software: "CorelDRAW",
   },
 ];
 
@@ -613,7 +626,7 @@ function App() {
                   <li>Adobe Illustrator</li>
                   <li>Figma</li>
                   <li>Adobe InDesign</li>
-                  <li>After Effects</li>
+                  <li>CorelDraw</li>
                 </ul>
 
               </div>
@@ -633,7 +646,7 @@ function App() {
 
           <div className="contact-top">
 
-            <p>/ 04 — Contact  <span className="section-label">P.No.+91-7972878871 Email: ayeshalui696@gmail.com</span></p>
+            <p>/ 04 — Contact  <span className="section-label">P.No.+91-7972878871 / +91-9579507700 Email: ayeshalui696@gmail.com</span></p>
 
             <span className="bigger-lettering">Have a project in mind?</span>
 
@@ -658,15 +671,15 @@ function App() {
 
           <div className="social-links">
 
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/ayeshalui/" target="_blank" rel="noreferrer">
               Instagram ↗
             </a>
 
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.behance.net/ayeshapereira" target="_blank" rel="noreferrer">
               Behance ↗
             </a>
 
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/ayesha-pereira-199527218/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B03HLOIFDQ4WZDWG3fDgWGw%3D%3D" target="_blank" rel="noreferrer">
               LinkedIn ↗
             </a>
 
